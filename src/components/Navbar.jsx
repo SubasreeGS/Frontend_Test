@@ -9,7 +9,7 @@ function Navbar() {
                         Objects Dashboard
                     </Link>
                     
-                    {/* Mobile Hamburger Toggle Button */}
+                   
                     <button 
                         className="navbar-toggler" 
                         type="button" 
