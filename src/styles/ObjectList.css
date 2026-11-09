@@ -1,0 +1,66 @@
+/* Table Card & Container */
+.object-list-card {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.object-list-card-header {
+    border-bottom: 1px solid #eef2f5;
+    padding: 1.25rem 1.5rem;
+}
+
+/* Table Styling */
+.object-table {
+    margin-bottom: 0;
+}
+
+.object-table thead th {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #6c757d;
+    padding: 1rem 1.25rem;
+    border-bottom: 2px solid #eef2f5;
+}
+
+.object-table tbody td, 
+.object-table tbody th {
+    padding: 1rem 1.25rem;
+    font-size: 0.95rem;
+}
+
+.object-table tbody tr {
+    transition: background-color 0.15s ease-in-out;
+}
+
+.object-table tbody tr:hover {
+    background-color: rgba(13, 110, 253, 0.03) !important;
+}
+
+/* Delete Trash Icon */
+.object-table .btn-outline-danger {
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.object-table .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+/* Pagination Controls */
+.pagination .page-link {
+    border-radius: 6px;
+    margin: 0 3px;
+    padding: 0.5rem 0.85rem;
+    color: #0d6efd;
+    border: 1px solid #dee2e6;
+}
+
+.pagination .page-item.disabled .page-link {
+    background-color: #f8f9fa;
+    border-color: #eef2f5;
+}

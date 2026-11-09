@@ -1,0 +1,20 @@
+/* Container & Dashboard Layout */
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.dashboard-title {
+    font-size: 2.2rem;
+    letter-spacing: -0.5px;
+}
+
+/* Styled Section Divider */
+.dashboard-divider {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, rgba(13, 110, 253, 0.1), rgba(13, 110, 253, 0.4), rgba(13, 110, 253, 0.1));
+    border-radius: 2px;
+}
